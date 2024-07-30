@@ -43,7 +43,7 @@ To run the SkyShift API, you can use the pre-built Docker image available on Doc
      -e AWS_SECRET_KEY={AWS_SECRET_KEY} \
      hb7736/skyshift-api:latest
    ```
-
+   For URLs, ensure mentioning protocol with port! i.e. http://localhost:5000
    You can set default values for these environment variables in the `server/modules/variables.py` file if needed.
 
 ## API Endpoints
