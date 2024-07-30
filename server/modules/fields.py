@@ -1,0 +1,7 @@
+username_field = r'^[a-zA-Z\d](?:[a-zA-Z\d]|-(?=[a-zA-Z\d])){0,38}$'
+repo_name_field = r'^[a-zA-Z\d](?:[a-zA-Z\d]|-(?=[a-zA-Z\d])){0,98}[a-zA-Z\d]$'
+branch_name_field = r'^[a-zA-Z\d](?:[a-zA-Z\d]|-(?=[a-zA-Z\d])){0,248}[a-zA-Z\d]$'
+session_id_field = r'^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$'
+desc_field = r'^[a-zA-Z0-9._ ]*$'
+path_field = r'^[a-zA-Z0-9._/ ()]*$'
+port_field = r'^(?:0|[1-9]\d{0,4}|[1-5]\d{5}|6[0-4]\d{4}|65[0-4]\d{3}|655[0-2]\d{2}|6553[0-5])$'

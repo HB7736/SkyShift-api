@@ -1,0 +1,5 @@
+requests
+jenkinsapi==0.3.13
+flask
+flask-cors
+
